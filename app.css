@@ -76,7 +76,6 @@ h4 {
 h5{
     font-size: 25px;
     font-weight: normal;
-    background: rgba(36, 40, 43, 0.72);
     color: white;
     visibility: hidden;
     opacity: 0;
@@ -85,7 +84,6 @@ h5{
 }
 .img__description {
     font-size: 18;
-    background: rgba(36, 40, 43, 0.72);
     color: white;
     visibility: hidden;
     opacity: 0;
@@ -106,6 +104,18 @@ div:hover .img__description {
 div:hover h5 {
     visibility: visible;
     opacity: 1;
+}
+.img__rover:hover {
+    background-image: url(images/dimmedrover.jpg);
+}
+.img__website:hover {
+    background-image: url(images/dimmedwebpage.png);
+}
+.img__custom:hover {
+    background-image: url(images/dimmedkeyboard.jpg);
+}
+.img__filter:hover{
+    background-image: url(images/dimmedFilter.png);
 }
 .center p{
     font-size: 18px;
