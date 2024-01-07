@@ -20,21 +20,96 @@ h2{
     padding: 10px;
 }
 h3 {
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: normal;
     color: rgb(15, 15, 15);
     text-align: center;
+    margin: auto;
+}
+h4 {
+    font-weight: lighter;
 }
 .center{
-    margin: auto;
+    margin: 100px auto;
     background-color: rgb(209, 203, 207);
     width: 40% ;
-    padding: 5px;
+    padding: 40px 0px;
+    text-align: center;
 }
-p{
-    font-size: 24px;
-    margin-left: 25px;
-    margin-right: 20px;
-    margin-top: -10px;
+.center img{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+}
+.img__rover {
+    background-image: url(images/rover.jpg);
+    background-size: cover;
+    margin: 50px auto;
+    height: 425px;
+    width: 540px;
+    text-align: center;
+  }
+.img__website {
+    background-image: url(images/webpage.png);
+    background-size: cover;
+    margin: 50px auto;
+    height: 425px;
+    width: 540px;
+    text-align: center;
+}
+.img__custom {
+    background-image: url(images/keyboard.jpg);
+    background-size: cover;
+    margin: 30px auto;
+    height: 425px;
+    width: 540px;
+    text-align: center;
+}
+.img__filter {
+    background-image: url(images/Filter.png);
+    background-size: cover;
+    margin: 30px auto;
+    height: 425px;
+    width: 540px;
+    text-align: center;
+}
+h5{
+    font-size: 25px;
+    font-weight: normal;
+    background: rgba(36, 40, 43, 0.72);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s, visibility .5s;
+    padding: 70px 30px 10px;
+}
+.img__description {
+    font-size: 18;
+    background: rgba(36, 40, 43, 0.72);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s, visibility .5s;
+    height: 70%;
+    width: 89%;
+    margin-top: -41px;
+    padding: 10px 30px;
+    line-height: 1.5;
+  }
+div u{
+    color: white;
+  }
+div:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+  }
+div:hover h5 {
+    visibility: visible;
+    opacity: 1;
+}
+.center p{
+    font-size: 18px;
+    margin: 10px auto 20px;
 }
 button {
     background-color: rgb(235, 229, 234);
@@ -48,7 +123,6 @@ ul {
     padding: 0;
     list-style-type: none;
     display: flex;
-
 }
 li{
     margin: auto;
@@ -74,14 +148,12 @@ a:hover{
 }
 
 footer{
-    margin: 10px 30px 5px -15px;
+    margin: auto 30px 5px -15px;
     text-align: right;
-    position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100%;
 }
 footer img{
-    width: 60px;
+    width: 50px;
     margin-left: 8px;
 }
+
