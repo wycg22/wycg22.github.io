@@ -3,7 +3,7 @@ import renderLogo from '../assets/render-logo.png';
 import company2Logo from '../assets/Elections-Canada_logo.png';
 import LTXLogo from '../assets/LTX_logo.jpg';
 import company4Logo from '../assets/bestbuy_logo.jpg';
-import boschLogo from '../assets/bosch_logo.jpg';
+import boschLogo from '../assets/bosch_logo.png';
 import aetherLogo from '../assets/aether_logo.jpg';
 
 const Experience = () => {
