@@ -12,7 +12,7 @@ const Navbar = () => {
       </div>
       <div className="social-links">
         <a href="https://github.com/wycg22"><FaGithub /></a>
-        <a href="https://www.linkedin.com/in/william-wang-6a4500279/"><FaLinkedin /></a>
+        <a href="https://www.linkedin.com/in/wycg22/"><FaLinkedin /></a>
       </div>
     </nav>
   );
